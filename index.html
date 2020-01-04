@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="./js/dictionary.js"></script>
+  <script>window.onload = function() {Particles.init({selector: '.background'});};</script>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body><div class="bodyalign"></div>
+  <div class="container">
+    <div class="windowbox">
+      <h1>Random Domain Generator</h1>
+      <h4>Feeling uncreative? Try out our domain generator and have your computer pick the domain name for you!</h4>
+      <h4>TLD(s) Generated: <span style="color:purple">.gq, .ga, .cf, .ml</span>.</h4>
+      <form name="myForm">
+      <center>
+
+      <tbody><tr>
+      <td>Your new site: <input name="theDomain" type="text" size="20" width="100" value="Click A Button To Generate!"></center></td></tr>
+      <h5>This generator uses <span style="color:purple">Adjective-Noun-Verb-Adverb</span> generation.</h5>
+      <tr><input type="button" value="One Word Domain" onclick="newDomain1()"></input>
+        <input type="button" value="Two Word Domain" onclick="newDomain2()"></input>
+        <input type="button" value="Three Word Domain" onclick="newDomain3()"></input>
+        <input type="button" value="Four Word Domain" onclick="newDomain4()"></input>
+
+      </tr></tbody><p>
+      </p></center></form>
+      <h1></h1>
+      <h4>This generator was created by LQ16, check out my Github at: <a href="https://github.com/LQ16">www.github.com/LQ16</a></h4>
+    </div>
+  </div>
+  <canvas class="background"></canvas>
+  <script src="./js/walls.js"></script>
+</body>

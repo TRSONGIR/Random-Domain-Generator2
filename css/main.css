@@ -16,7 +16,6 @@ body {
 .windowbox {
     font-family: 'Roboto', sans-serif;
     margin: auto;
-    align:center;
     position: relative;
     margin-top: auto;
     margin-bottom: auto;
@@ -45,7 +44,6 @@ body {
     padding: 12px 0;
     font-size: 24px;
     color: #ffffff;
-    border-bottom: 2px dotted #ffffff;
 }
 
 .windowbox p {
